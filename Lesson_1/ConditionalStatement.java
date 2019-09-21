@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class ConditionalStatement {
 
 	public static void main(String[] args) {
@@ -26,8 +24,8 @@ public class ConditionalStatement {
 			System.out.println ("Your name begins with the letter M");
 		} else if(firstCharName == 'I'){ 
 			System.out.println ("People whose name starts with' I ' are happy");
-		} else { 
-			System.out.println ("I already wrote that you are a good man");
+		} else 
+			{ System.out.println ("I already wrote that you are a good man");
 		}
 	}
 }
