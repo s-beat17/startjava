@@ -6,9 +6,14 @@ public class ConditionalStatement {
 			System.out.println("You're an adult");
 		}
 
-		boolean maleGender = true;
-		if(maleGender) { 
+		boolean isMale = true;
+		if(isMale) { 
 			System.out.println("You're a gentleman!");
+		}
+
+		boolean isFemale = false;
+		if(isFemale) { 
+			System.out.println("You're a Lady!");
 		}
 		
 		double height = 1.85;
