@@ -3,7 +3,7 @@ public class Calculator {
 	public static void main(String[] args) {
 		int number1 = 10;
 		System.out.println("Number One = " + number1);
-		int number2 = 2;
+		int number2 = 0;
 		System.out.println("Number Two = " + number2);
 		char simbol = '^';
 		System.out.println("Operation = " + simbol);
@@ -21,9 +21,9 @@ public class Calculator {
 		} else if(simbol == '/') {
 			if(number2 == 0) {
 				System.out.println("Division by zero!!!");
-		} else {
-			answer = number1 / number2;
-			System.out.println("Division = number1 / number2: " + answer);
+			} else {
+				answer = number1 / number2;
+				System.out.println("Division = number1 / number2: " + answer);
 			}
 		} else if(simbol == '^') {
 			answer = number1;

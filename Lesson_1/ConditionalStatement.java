@@ -11,8 +11,7 @@ public class ConditionalStatement {
 			System.out.println("You're a gentleman!");
 		}
 
-		boolean isFemale = false;
-		if(isFemale) { 
+		if(!isMale) { 
 			System.out.println("You're a Lady!");
 		}
 		

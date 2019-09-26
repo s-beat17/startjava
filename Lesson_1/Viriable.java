@@ -1,17 +1,14 @@
 public class Viriable {
 
 	public static void main(String[] args) {
-		String name = "Intel";
-		System.out.println("Brand name: " + name);
-
 		short cpu = 2400;
 		System.out.println("Frequnce CPU: " + cpu);
 
 		byte core = 2;
 		System.out.println("Core: " + core);
 
-		int socet = 988;
-		System.out.println("Socet: " + socet);
+		int socket = 988;
+		System.out.println("Socket: " + socket);
 
 		long memory = 8000;
 		System.out.println("Memory: " + memory);
